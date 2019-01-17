@@ -1,0 +1,145 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+#container {
+	position:absolute;
+	top:0;
+	left:0px;
+	width:300px;
+	height:250px;
+	margin:auto;
+	background-color:#ffffff;
+	overflow:hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+		 box-sizing: border-box;
+	border:1px solid #999999;
+}
+
+.bg {
+	position:absolute;
+	top:0;
+	left:0px;
+	width:300px;
+	height:250px;
+	margin:auto;
+	background-color:#ffffff;
+	overflow:hidden;
+	background: transparent url(https://cdn.revjet.com/s3/csp/1545937199720/bg_300x250.jpg) no-repeat top left;
+	z-index: 200;
+}
+
+
+.border_left {
+	top: 0;
+	left: 0;
+	width: 7px;
+	height: 250px;
+	background-color: #f96302;
+	position: absolute;
+	z-index: 1500;
+}
+
+
+
+.THD_logo {
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:64px;
+	height:64px;
+	background: transparent url(THD_logo.png) no-repeat top left;
+	z-index: 1500;
+}
+
+.brush1, .brush2, .brush3, .swatch1, .swatch2, .swatch3, .swatch1-reveal, .swatch2-reveal, .swatch3-reveal {
+	width: 40px;
+	height: 123px;
+	position: absolute;
+	top: 140px;
+	/*left: 30px;*/
+	/*z-index: 700;*/
+}
+
+#brushplay{
+	top: 110px;
+	transform: scale(1.3);
+	left: 80px;
+}
+.brush2{
+	top: 110px;
+	transform: scale(1.3);
+	left: 150px;
+}
+.brush3{
+	top: 110px;
+	transform: scale(1.3);
+	left: 220px;
+}
+.swatch1, .swatch2, .swatch3 {
+	/*top: 100px;*/
+	z-index: 600;
+}
+.swatch1-reveal, .swatch2-reveal, .swatch3-reveal{
+	background-color: #D6D2D1;
+	z-index: 650;
+}
+.brush2, .brush3 {
+	opacity: 0;
+} 
+
+.brush1, .brush2, .brush3 {
+	/*top: 80px;*/
+	z-index: 700;
+}
+
+.swatch1, .swatch1-reveal {
+	left: 30px;
+}
+
+.swatch2, .swatch2-reveal {
+	left: 100px;
+}
+
+.swatch3, .swatch3-reveal {
+	left: 170px;
+}
+
+.brush1 img, .brush2 img, .brush3 img, .swatch1 img, .swatch2 img, .swatch3 img {
+	width: 40px;
+	height: 123px;
+	position: absolute;
+}
+
+
+
+
+
+
+/* SLIDER */ 
+
+
+.tagline {
+	width:141px;
+	height:71px;
+	/* background: transparent url(tagline.png) no-repeat top left; */
+	z-index: 500;
+	position: absolute;
+	bottom: 1px;
+	right: 0;
+}
+
+
+
+#exit_btn, #clickArea {
+	position:absolute;
+	/*top:0px;*/
+	bottom:0px;
+	width:100%;
+	height:250px;
+	background-color:transparent;
+	cursor:pointer;
+	z-index:99999999999999999;
+	border:0;
+}
